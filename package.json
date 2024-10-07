@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node bot.js",
+    "play": "yarn build && yarn start"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@grammyjs/menu": "^1.2.2",
+    "grammy": "^1.30.0"
+  }
+}
